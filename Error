@@ -1,0 +1,23 @@
+синтаксис
+
+const reference = () => {
+  // BEGIN (write your solution here)
+  return a;
+  // END
+};
+
+export default reference;
+
+
+
+Тип
+
+const type = () => {
+  // BEGIN (write your solution here)
+  const a=2;
+  a(3);
+
+  // END
+};
+
+export default type;
