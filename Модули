@@ -1,0 +1,16 @@
+Экспорт
+export const getTrianglePerimeter = (a, b, c) => a + b + c;
+
+// BEGIN (write your solution here)
+export const  getTriangleArea =(h,b) => 1/2*h*b;
+// END
+
+Импорт
+import square from './square';
+import {getTriangleArea} from './myMathModule';
+
+// BEGIN (write your solution here)
+
+ const solution = (n) =>getTriangleArea(n,square(n)/2)
+export default solution;
+// END
